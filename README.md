@@ -149,4 +149,3 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 > 🌱 *"Empowering farmers through AI-driven decisions for a greener tomorrow."*
 
-```
