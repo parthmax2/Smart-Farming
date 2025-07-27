@@ -34,7 +34,7 @@
 
 ## 🖼️ Web App Screenshot  
 
-![Crop Recommendation System Screenshot](static/images/crop_recommendation_preview.png)  
+![Crop Recommendation System Screenshot](static/SmartFarming.png)  
 > 🖼 *Responsive user interface built using HTML, CSS, and JavaScript*
 
 ---
