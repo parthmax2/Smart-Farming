@@ -1,38 +1,45 @@
 
-# 🌾 Smart Farming: Crop Recommendation System for Popular Indian Crops
+# 🌾 Smart Farming: Crop Recommendation System for Popular Indian Crops  
 
 > 🔬 A Machine Learning-based Web Application to Recommend Suitable Crops Based on Environmental Conditions  
-> 👨‍🌾 Built by [Saksham Pathak](https://github.com/parthmax2) | IIIT Lucknow | 94.3% Accuracy | Deployed using Flask
+> 👨‍🌾 Built by [Saksham Pathak](https://github.com/parthmax2) | IIIT Lucknow | 94.3% Accuracy | Deployed using Flask  
 
 ---
 
-## 📌 Overview
+## 📌 Overview  
 
 **Smart Farming** is a crop recommendation system that leverages machine learning to assist Indian farmers in selecting the most suitable crop for cultivation based on key environmental parameters. The system uses a **Random Forest Classifier** trained on soil and climatic data to suggest the best crop from a set of **22 popular Indian crops**.
 
-🌱 This project empowers sustainable agriculture, efficient resource utilization, and smarter farming decisions through AI.
+🌱 This project empowers sustainable agriculture, efficient resource utilization, and smarter farming decisions through AI.  
 
 ---
 
-## 🧠 Key Features
+## 🧠 Key Features  
 
-- ✅ **ML-Powered Predictions** (94.3% Accuracy)
-- 🧪 Inputs: Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH, Rainfall
-- 🌾 Outputs: Rice, Maize, Banana, Cotton, Sugarcane, etc.
-- 📊 Model Used: **Random Forest Classifier**
-- 🌐 **Flask-based Web App** with real-time crop suggestions
-- 🎨 Clean and responsive UI (HTML + CSS + JS)
-
----
-
-## 🚀 Live Demo
-
-[![Watch Demo](https://img.shields.io/badge/Click%20Here-Live%20App-green?style=for-the-badge&logo=github)](https://your-deployment-link.com)  
-*🔒 Link coming soon or hosted locally*
+- ✅ **ML-Powered Predictions** (94.3% Accuracy)  
+- 🧪 Inputs: Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH, Rainfall  
+- 🌾 Outputs: Rice, Maize, Banana, Cotton, Sugarcane, etc.  
+- 📊 Model Used: **Random Forest Classifier**  
+- 🌐 **Flask-based Web App** with real-time crop suggestions  
+- 🎨 Clean and responsive UI (HTML + CSS + JS)  
 
 ---
 
-## 🖥️ Tech Stack
+## 🚀 Live Demo  
+
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-brightgreen?style=for-the-badge&logo=google-chrome)](https://huggingface.co/spaces/parthmax/Smart-Farming)  
+> 💡 *Also available locally via `app.py`*  
+
+---
+
+## 🖼️ Web App Screenshot  
+
+![Crop Recommendation System Screenshot](static/images/crop_recommendation_preview.png)  
+> 🖼 *Responsive user interface built using HTML, CSS, and JavaScript*
+
+---
+
+## 🖥️ Tech Stack  
 
 | Component     | Technology                |
 |---------------|---------------------------|
@@ -44,25 +51,27 @@
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure  
 
 ```
 
 📁 crop-recommendation
 ├── 📁 static/
-│   └── images
+│   └── images/
+│       └── crop\_recommendation\_preview\.png
 ├── 📁 templates/
 │   └── index.html
-├── 📄 app.py             # Flask backend
-├── 📄 crop\minmaxscaler.pkl,standscaler.pkl    # Trained ML model
+├── 📄 app.py
+├── 📄 crop/minmaxscaler.pkl, standscaler.pkl
 ├── 📄 requirements.txt
 ├── 📄 Dockerfile
 └── 📄 README.md
+
 ````
 
 ---
 
-## 📊 Model Performance
+## 📊 Model Performance  
 
 | Model             | Accuracy | Precision | Recall | F1-Score |
 |------------------|----------|-----------|--------|----------|
@@ -72,16 +81,17 @@
 | SVM               | 85.7%    | 83.2%     | 81.6%  | 82.4%    |
 
 📌 **Key Factors Influencing Prediction:**
-- Rainfall
-- Soil pH
-- Temperature
-- NPK (Nitrogen, Phosphorus, Potassium)
+- Rainfall  
+- Soil pH  
+- Temperature  
+- NPK (Nitrogen, Phosphorus, Potassium)  
 
 ---
 
-## 📥 How to Run Locally
+## 📥 How to Run Locally  
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository  
+
 ```bash
 git clone https://github.com/parthmax2/crop-recommendation-system.git
 cd crop-recommendation-system
